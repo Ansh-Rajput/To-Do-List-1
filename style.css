@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ece8e7;
+    /* overflow: hidden; */
+}
+.containor{
+    width: 100%;
+    height: 90vh;
+    background-color: #ece8e7;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #e15f41;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.mainContainor{
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 50%;
+}
+.createBox{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.createBox input{
+    width: 85%;
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+}
+.createBox button{
+    cursor: pointer;
+    width: 14.3%;
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 2rem;
+    background-color: #e77f67;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.notesContainor{
+    margin-top: 1.5rem;
+}
+
+li{
+    position: relative;
+    list-style: none;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: all 0.5s;
+}
+.checked{
+    color: #9e9fa2;
+    text-decoration: line-through;
+}
+span.delete{
+    z-index: 10;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 6%;
+    transition: all 0.5s;
+}
+
+span.delete:hover{
+    background-color: #e15f41;
+    color: #fff;
+}
+
